@@ -24,6 +24,11 @@ class AddReminderActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityAddReminderBinding.inflate(layoutInflater)
         setContentView(binding.root)
+        
+        // Set up toolbar navigation
+        binding.toolbar.setNavigationOnClickListener {
+            finish()
+        }
 
         reminderViewModel = ViewModelProvider(this)[ReminderViewModel::class.java]
 
