@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Reminder App</string>
+    <string name="add_reminder">Add Reminder</string>
+    <string name="edit_reminder">Edit Reminder</string>
+    <string name="title">Title</string>
+    <string name="description">Description</string>
+    <string name="select_date_time">Select Date &amp; Time</string>
+    <string name="save_reminder">Save Reminder</string>
+    <string name="update_reminder">Update Reminder</string>
+    <string name="delete_reminder">Delete Reminder</string>
+    <string name="no_date_selected">No date selected</string>
+    <string name="delete_confirmation">Are you sure you want to delete this reminder?</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+</resources>
